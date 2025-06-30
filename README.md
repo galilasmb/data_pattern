@@ -22,6 +22,10 @@ DATA_PATTERN/
 │   └── README.md
 ```
 
+### `data/`
+
+Responsible for storing local datasets and raw data files used in the project.
+
 ### `docs/`
 
 Contains supporting documents such as ordinances, technical notes, specifications, and anything that contributes to understanding the project and the analyses conducted.
@@ -40,8 +44,7 @@ Folder where generated results are saved:
 Contains the scripts used in the project, organized by purpose:
 
 * **analysis/**: main analysis scripts or notebooks.
-* **data/**: scripts for data loading, cleaning, and transformation.
-* **dynavis/**: scripts related to dynamic visualizations, dashboards, or interactive plots.
+* **dags/**: folder containing Airflow DAG files (workflow definitions).
 
 ### `todo/`
 
@@ -54,6 +57,6 @@ Section intended for planning and task tracking:
 
 ## Recommendations
 
-* Use the `tasks.md` file to track the progress of activities.
+* Use the `tasks.md` file to track the progress of activities or other tools (Jira, Teams, Google)
 * Add execution instructions to the scripts when necessary.
 * Keep the directories organized to facilitate collaboration and reproducibility.
