@@ -6,6 +6,7 @@ This repository follows a standard structure for ad hoc data projects, focusing 
 
 ```plaintext
 DATA_PATTERN/
+├── data/
 ├── docs/
 │   └── README.md
 ├── output/
@@ -15,8 +16,6 @@ DATA_PATTERN/
 │   └── word/
 ├── scripts/
 │   ├── analysis/
-│   ├── data/
-│   └── dynavis/
 ├── todo/
 │   ├── tasks.md
 │   └── README.md
